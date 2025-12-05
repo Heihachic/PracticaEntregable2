@@ -8,6 +8,7 @@ public class PruebaAutobus {
 		Scanner teclado = new Scanner (System.in);
 		Autobus autobus1 = new Autobus ("1234-ABC", "GRANADA-SEVILLA", 50, );
 		System.out.println("Hola este es mi cambio");
+		teclado.close();
 	}
 
 }
